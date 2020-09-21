@@ -19,18 +19,9 @@ To enable GPU go to `Runtime` **->** `Change runtime type` select `gpu` and clic
 The credit for the dataset goes to this [Repo](https://github.com/chandrikadeb7/Face-Mask-Detection)
 
 
-Use your power-shell to clone the repo
+First you have to clone this repo in your colab cloud
 ```Code
-git clone https://github.com/chandrikadeb7/Face-Mask-Detection.git
+git clone https://github.com/rukon-uddin/Mask-Detection-System-Tensorflow.git
 ```
-Open the file and go to the dataset folder and do the following:
-  - Make 2 folders, `train` , `val`
-  - Inside train folder make more two folder's `with_mask`, `without_mask` do the same with folder `val`
-  - Inside dataset folder you will see two folder name `with_mask`, `without_mask`
-  - take 450 images from `with_mask` folder and **Cut Paste** it inside `val`,`with_mask` and the rest of the images in `train`,`with_mask`
-  - take 450 images form `without_mask` folder and **Cut Paste** it inside `val`,`without_mask` and the rest of the images in `train`,`without_mask
-  
-its upto you how yoy devide the images, Most preffered way is to keep **80% of dataset** in training  and **20% of dataset** in validation/test.
-Now in your dataset folder there must be 4 folder `train`, `val`, `with_mask`**(empty)**, `without_mask`**(empty)**. Delete the empty folders.
 
-**UPLOAD THE DATASET FOLDER TO YOUR GOOGLE DRIVE**
+
